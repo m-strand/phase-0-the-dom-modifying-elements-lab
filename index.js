@@ -4,9 +4,9 @@
 document.getElementById("main").remove();
 
 //create h1 with id #victory
-const victor = document.createElement("h1")
-document.body.append(victor);
+const newHeader = document.createElement("h1")
+document.body.append(newHeader);
 //Make h1 say "Brooke is the champion"
-victor.setAttribute("id", "victory");
-victor.innerHTML = 
+newHeader.id = victory;
+newHeader.innerHTML = 
 "<h1>Brooke is the champion</h1>";
